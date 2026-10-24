@@ -47,7 +47,7 @@ The prototype uses demonstration data. It does not currently include backend ser
 
 Development tasks and progress are tracked in YouTrack.
 
-**YouTrack Project:** [Add project link]
+**YouTrack Project:** [[project link]](https://assylay.youtrack.cloud/projects/AITUSM) 
 
 ## Current Status
 
