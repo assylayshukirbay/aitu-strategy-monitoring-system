@@ -1,0 +1,30 @@
+flowchart TB
+    U["Authorized Users"]
+
+    subgraph SYS["AITU Strategy Monitoring System"]
+        UI["User Interface"]
+
+        AUTH["Authentication & Access Control"]
+        KPI["Strategy & KPI Management"]
+        CALC["KPI Calculation & Validation"]
+        REP["Reporting & Dashboard"]
+        AUD["Change History"]
+
+        DB[("System Database")]
+
+        UI --> AUTH
+        UI --> KPI
+        UI --> REP
+
+        KPI --> CALC
+        KPI --> AUD
+        REP --> KPI
+
+        AUTH --> DB
+        KPI --> DB
+        CALC --> DB
+        REP --> DB
+        AUD --> DB
+    end
+
+    U --> UI
