@@ -1,0 +1,4 @@
+﻿Task,Spreadsheet baseline,Proposed system,Measure
+Find a KPI,Search a 2026 KPI among sample rows,Search/filter the KPI registry,Elapsed seconds; correctness
+Update an actual result,Locate row; enter a value; verify it,Open KPI; edit result; confirm,Elapsed seconds; validation errors
+Compile annual summary,Select rows and manually summarize available values,Generate the period report,Elapsed seconds; missing-value errors
